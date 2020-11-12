@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: #F4F4F4;
+}
+
+main .workshop .workshop-title {
+    margin: 40px 0 0 32px;
+}
+
+main .workshop .workshop-title legend {
+    width: 200px;
+
+    font-size: 28px;
+    font-weight: 700;
+    color:#4F3B2B;
+
+    display: flex;
+    justify-content: center;
+}
+
+main .workshop .workshop-title hr {
+    margin: 0 52px 24px 24px;
+
+    border: 0.2px solid #4F3B2B;
+}
+
+main .workshop-items {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+main .workshop .items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+main .workshop .items-grid li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+main .workshop .items-grid li img {
+    height: 250px;
+    width: 200px;
+
+    border-radius: 8px; 
+}
+
+main .news .news-title {
+    margin: 40px 0 0 32px;
+}
+
+main .news .news-title legend {
+    width: 200px;
+
+    font-weight: 700;
+    font-size: 28px;
+    color: #4F3B2B;
+
+    margin-left: 32px;
+}
+
+main .news .news-title hr {
+    margin: 0 52px 24px 24px;
+
+    border: 0.2px solid #4F3B2B;
+}
+
+main .news .items-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 24px;
+}
+
+main .news .news-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .news .items-grid li{
+    height: 380px;
+    width: 250px;
+
+    /* background-color: #686868; */
+    
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+main .news .items-grid li:hover {
+
+    border: 0.2px solid #a7a7a7;
+}
+
+main .news .items-grid li img {
+    height: 250px;
+    width: 200px;
+
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+main .news .items-grid li p{
+    color: #807e7e;
+    margin-top: 8px;
+
+    width: 200px;
+}
+
+main .news .items-grid li strong{
+    color: #e74c3c;
+}
+
+main .news .items-grid li .price {
+    width: 250px;
+    margin: 4px 0 0 48px;
+}
+
+#page-home footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 32px;
+    padding: 16px;
+
+    background-color: #4F3B2B;
+}
+
+#page-home footer p {
+    margin-right: 20px;
+    color: #F4F4F4;
+}
