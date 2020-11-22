@@ -1,14 +1,16 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const mysql = require('mysql');
+const connection = require("./config/mysql");
 
-const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'login'
-});
+app.use(require("./config/routes"));
 
-app.use(require('./routes'));
+const init = async () => {
+  const a = await connection();
+  console.log(a);
+  await app.listen(3333, () => console.log("Servidor aberto!!!!!"));
+};
+init();
 
-app.listen(3333);
+// const name = functionName();
+
+// _, (b = functionName());
