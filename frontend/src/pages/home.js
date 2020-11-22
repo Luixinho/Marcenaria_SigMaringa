@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import '../styles/page.css'
-import working from '../assets/trabalhando.jpeg';
-import witheStool from '../assets/bancos-brancos.jpeg';
-import bookCaseWorkshop from '../assets/estante-oficina.jpeg';
-import spiceContainer from '../assets/porta-temperos-branco.jpeg';
-import plantas from '../assets/plantas.jpeg';
-import port_temp_pote from '../assets/porta-temperos-pote.jpeg';
-import chaveiro2 from '../assets/chaveiro2.jpeg';
-import comoda from '../assets/comoda.jpeg';
+import "../styles/page.css";
+import working from "../assets/trabalhando.jpeg";
+import witheStool from "../assets/bancos-brancos.jpeg";
+import bookCaseWorkshop from "../assets/estante-oficina.jpeg";
+import spiceContainer from "../assets/porta-temperos-branco.jpeg";
+import plantas from "../assets/plantas.jpeg";
+import port_temp_pote from "../assets/porta-temperos-pote.jpeg";
+import chaveiro2 from "../assets/chaveiro2.jpeg";
+import comoda from "../assets/comoda.jpeg";
 
 function landing() {
   return (
@@ -37,7 +37,6 @@ function landing() {
                 </li>
               </div>
             </div>
-
           </div>
 
           <div className="news">
@@ -50,14 +49,19 @@ function landing() {
               <div className="items-grid">
                 <li>
                   <img src={plantas} alt="estante para plantas" />
-                  <p>Estante decorativa para colocar plantas de diversos tipos.</p>
+                  <p>
+                    Estante decorativa para colocar plantas de diversos tipos.
+                  </p>
                   <div className="price">
                     <strong>R$ 80,00</strong>
                   </div>
                 </li>
                 <li>
                   <img src={port_temp_pote} alt="porta temperos com potes" />
-                  <p>Porta temperos ornamentado com local para potes e papel toalha.</p>
+                  <p>
+                    Porta temperos ornamentado com local para potes e papel
+                    toalha.
+                  </p>
                   <div className="price">
                     <strong>R$ 40,00</strong>
                   </div>
@@ -76,12 +80,9 @@ function landing() {
                     <strong>R$ 60,00</strong>
                   </div>
                 </li>
-
               </div>
             </div>
-
           </div>
-
         </main>
 
         <footer>

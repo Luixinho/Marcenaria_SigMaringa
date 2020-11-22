@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import '../styles/header.css';
-import Logo from '../assets/logomarca.jpeg';
-import iconeBanco from '../assets/banco-icon.png';
-import searchIcon from '../assets/icons8-search.svg';
+import "../styles/header.css";
+import Logo from "../assets/logomarca.jpeg";
+import iconeBanco from "../assets/banco-icon.png";
+import searchIcon from "../assets/icons8-search.svg";
 
 function header() {
   return (
@@ -16,36 +16,45 @@ function header() {
         </div>
 
         <a href="/login">Entrar</a>
-
+        <a href="/upload">Cadastrar produto</a>
       </div>
 
       <div className="header-bottom">
         <div className="elements">
           <button>
-            <span><img src={iconeBanco} alt="incone-banco" /></span>
+            <span>
+              <img src={iconeBanco} alt="incone-banco" />
+            </span>
             <strong>Chaveiros</strong>
           </button>
           <button>
-            <span><img src={iconeBanco} alt="incone-banco" /></span>
+            <span>
+              <img src={iconeBanco} alt="incone-banco" />
+            </span>
             <strong>Estantes</strong>
           </button>
           <button>
-            <span><img src={iconeBanco} alt="incone-banco" /></span>
+            <span>
+              <img src={iconeBanco} alt="incone-banco" />
+            </span>
             <strong>Bancos</strong>
           </button>
           <button>
-            <span><img src={iconeBanco} alt="incone-banco" /></span>
+            <span>
+              <img src={iconeBanco} alt="incone-banco" />
+            </span>
             <strong>Tábuas de carne</strong>
           </button>
           <button>
-            <span><img src={iconeBanco} alt="incone-banco" /></span>
+            <span>
+              <img src={iconeBanco} alt="incone-banco" />
+            </span>
             <strong>Porta tempeiros</strong>
           </button>
         </div>
       </div>
-
     </header>
-  )
-};
+  );
+}
 
 export default header;
